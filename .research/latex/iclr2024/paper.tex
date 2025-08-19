@@ -29,7 +29,6 @@
 \usepackage{tabularx}
 \pgfplotsset{compat=newest}
 
-
 \DeclareMathOperator*{\argmin}{arg\,min}
 \DeclareMathOperator*{\argmax}{arg\,max}
 
@@ -56,16 +55,16 @@ Diffusion models have emerged as a cornerstone in generative modeling, particula
 
 \begin{itemize}
   \item \textbf{Adaptive Formulation:} We introduce a formulation of the reverse diffusion process as an adaptive control problem, thereby enabling dynamic decision-making at each step.
-  \item \textbf{State Extraction and Policy Training:} A state extractor module computes metrics such as latent vector quality, current noise scale, and prediction reliability; these features are then used by an RL policy network trained via PPO [chatterji_2021_the].
+  \item \textbf{State Extraction and Policy Training:} A state extractor module computes metrics such as latent vector quality, current noise scale, and prediction reliability; these features are then used by an RL policy network trained via PPO \citep{chatterji_2021_the}.
   \item \textbf{Empirical Validation:} Extensive experiments on datasets like CIFAR-10 and CelebA reveal significant reductions in iteration count, improved image quality, and robust responses to dynamic perturbations.
   \item \textbf{Task-Specific Optimization:} In scenarios such as text-guided image synthesis, composite reward functions incorporating CLIP-based similarity improve task alignment.
 \end{itemize}
 
-Our work builds on prior approaches in cold diffusion [bansal_2022_cold] and post-hoc RL enhancements [black_2023_training], while distinctly integrating adaptive control directly into the diffusion loop. The remainder of the paper is organized with a review of related literature, an exposition of the theoretical background, a detailed description of the ADPO+ methodology, an outline of our experimental setup, presentation of results, and finally conclusions with perspectives on future research directions.
+Our work builds on prior approaches in cold diffusion \citep{bansal_2022_cold} and post-hoc RL enhancements \citep{black_2023_training}, while distinctly integrating adaptive control directly into the diffusion loop. The remainder of the paper is organized with a review of related literature, an exposition of the theoretical background, a detailed description of the ADPO+ methodology, an outline of our experimental setup, presentation of results, and finally conclusions with perspectives on future research directions.
 
 \section{Related Work}
 \label{sec:related}
-Prior research has explored numerous strategies to enhance diffusion models and integrate reinforcement learning into generative processes. Cold Diffusion [bansal_2022_cold] demonstrated that the generative behavior of models is not strongly tied to a fixed noise schedule, yet these approaches still rely on static denoising trajectories. Other works, such as those on Diffusion Posterior Sampling [chung_2022_diffusion], have optimized the sampling process for noisy inverse problems but have employed fixed reward-adjusted likelihoods rather than dynamic decision-making. More recent studies have begun to frame the denoising process as a sequential decision-making task, allowing for reinforcement learning interventions; however, these methods tend to apply RL as a post-hoc adjustment rather than embedding it within the sampling loop [black_2023_training]. Furthermore, research on counterfactual credit assignment in RL [mesnard_2020_counterfactual] has provided insights into handling delayed rewards, though it has not been explicitly combined with diffusion processes. ADPO+ distinguishes itself by tightly coupling an RL controller with the diffusion process, enabling real-time modulation and offering a unified framework that reduces computational iterations while preserving output quality.
+Prior research has explored numerous strategies to enhance diffusion models and integrate reinforcement learning into generative processes. Cold Diffusion \citep{bansal_2022_cold} demonstrated that the generative behavior of models is not strongly tied to a fixed noise schedule, yet these approaches still rely on static denoising trajectories. Other works, such as those on Diffusion Posterior Sampling \citep{chung_2022_diffusion}, have optimized the sampling process for noisy inverse problems but have employed fixed reward-adjusted likelihoods rather than dynamic decision-making. More recent studies have begun to frame the denoising process as a sequential decision-making task, allowing for reinforcement learning interventions; however, these methods tend to apply RL as a post-hoc adjustment rather than embedding it within the sampling loop \citep{black_2023_training}. Furthermore, research on counterfactual credit assignment in RL \citep{mesnard_2020_counterfactual} has provided insights into handling delayed rewards, though it has not been explicitly combined with diffusion processes. ADPO+ distinguishes itself by tightly coupling an RL controller with the diffusion process, enabling real-time modulation and offering a unified framework that reduces computational iterations while preserving output quality.
 
 \section{Background}
 \label{sec:background}
@@ -81,7 +80,7 @@ Training of the RL component utilizes proximal policy optimization (PPO) to achi
 \caption{ADPO+ Reverse Diffusion Algorithm}
 \begin{algorithmic}
   \State Initialize latent vector \(x_0\) and set maximum iterations \(T_{max}\).
-  \For{$t=0$ \textbf{to} \(T_{max}\)}
+  \For{\(t=0\) \textbf{to} \(T_{max}\)}
     \State Compute current state \(s_t\) based on latent quality, noise scale, and prediction reliability.
     \State Obtain action \(a_t\) from the policy network using PPO.
     \State Update latent state: \(x_{t+1} = x_t + \Delta x_t\), where \(\Delta x_t\) is determined by the diffusion process and modulation from \(a_t\).
@@ -93,7 +92,7 @@ Training of the RL component utilizes proximal policy optimization (PPO) to achi
 \end{algorithmic}
 \end{algorithm}
 
-Unlike approaches that apply RL only during a separate fine-tuning stage [black_2023_training], ADPO+ embeds the RL controller into the diffusion process. This tight integration facilitates immediate corrective actions and dynamic adaptation throughout the sampling trajectory, leading to marked improvements in both computational efficiency and generative quality.
+Unlike approaches that apply RL only during a separate fine-tuning stage \citep{black_2023_training}, ADPO+ embeds the RL controller into the diffusion process. This tight integration facilitates immediate corrective actions and dynamic adaptation throughout the sampling trajectory, leading to marked improvements in both computational efficiency and generative quality.
 
 \section{Experimental Setup}
 \label{sec:experimental}
@@ -103,7 +102,7 @@ The experimental analysis of ADPO+ is structured into three complementary setups
 Both a baseline diffusion model with a fixed-step schedule and the ADPO+ enhanced model were implemented in PyTorch, with PPO provided by Stable Baselines3. In this setup, the state extractor computes features such as the latent vector's standard deviation and a reliability measure. The policy network then modulates both the noise scale and step size. Performance metrics include the number of iterations, inference time, and image quality measured via FID and SSIM.
 
 \subsection{Evaluation of Robustness Under Dynamic Noise Conditions}
-This experiment evaluates the adaptation of ADPO+ to rapid changes in noise conditions. Noise perturbations are artificially introduced by randomly modifying the noise scale mid-sampling, following a predetermined probability and perturbation factor. The RL controller's actions—including noise modulation multipliers, step adjustments, and skip flags—are recorded and analyzed, while quality metrics such as SSIM and PSNR are used to assess reconstruction performance.
+This experiment evaluates the adaptation of ADPO+ to rapid changes in noise conditions. Noise perturbations are artificially introduced by randomly modifying the noise scale mid-sampling, following a predetermined probability and perturbation factor. The RL controller's actions---including noise modulation multipliers, step adjustments, and skip flags---are recorded and analyzed, while quality metrics such as SSIM and PSNR are used to assess reconstruction performance.
 
 \subsection{Assessment of Conditional Generation Tasks}
 In a conditional generation scenario (e.g., text-guided image synthesis using a dataset akin to MS-COCO), the baseline employs a static diffusion model conditioned solely on text prompts. In contrast, the ADPO+ model leverages a composite reward function integrating FID, SSIM, and a CLIP similarity score to enforce improved text-image alignment. Key performance indicators, including the final composite reward, are measured. Detailed logging via TensorBoard and Matplotlib ensured robust hyperparameter tuning and reproducibility during these experiments.
@@ -146,7 +145,7 @@ In the third experiment, focused on conditional generation, the ADPO+ model prod
 \label{sec:conclusion}
 This paper presented Adaptive Diffusion Policy Optimization (ADPO+), a novel framework that integrates a reinforcement learning controller directly into the reverse diffusion loop. By recasting the denoising process as a sequential decision-making problem, ADPO+ enables the model to dynamically modulate noise injection, adjust step sizes, and selectively skip iterations. This approach markedly reduces computational load while enhancing generative quality. Experimental evaluations across adaptive sampling efficiency, robustness under dynamic noise conditions, and task-specific conditional generation demonstrated significant improvements relative to traditional fixed-step diffusion methods, including a 73% reduction in iterations, a 3.35\(\times\) speedup in inference time, and improved FID and SSIM metrics, as well as enhanced performance in conditional generation tasks.
 
-The results obtained with ADPO+ underscore the promise of integrating real-time adaptive control into diffusion-based generative models. Future research may explore incorporating more complex task-specific signals into the reward function, investigating alternative RL algorithms to further improve stability and performance, and extending the approach to non-image domains. The convergence of reinforcement learning and diffusion processes, as demonstrated by ADPO+, marks a significant step toward a new generation of efficient, robust, and controllable generative modeling systems [bansal_2022_cold, black_2023_training].
+The results obtained with ADPO+ underscore the promise of integrating real-time adaptive control into diffusion-based generative models. Future research may explore incorporating more complex task-specific signals into the reward function, investigating alternative RL algorithms to further improve stability and performance, and extending the approach to non-image domains. The convergence of reinforcement learning and diffusion processes, as demonstrated by ADPO+, marks a significant step toward a new generation of efficient, robust, and controllable generative modeling systems \citep{bansal_2022_cold, black_2023_training}.
 
 This work was generated by \textsc{AIRAS} \citep{airas2025}.
 
