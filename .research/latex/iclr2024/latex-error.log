@@ -266,215 +266,54 @@ s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg)
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd)
-! Missing $ inserted.
-<inserted text> 
-                $
-l.59 ...policy network trained via PPO [chatterji_
-                                                  2021_the].
 
-! LaTeX Error: Command \item invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.60   \item
-             \textbf{Empirical Validation:} Extensive experiments on dataset...
+Package natbib Warning: Citation `chatterji_2021_the' on page 1 undefined on in
+put line 58.
 
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.60   \item \textbf
-                    {Empirical Validation:} Extensive experiments on dataset...
+Package natbib Warning: Citation `bansal_2022_cold' on page 1 undefined on inpu
+t line 63.
 
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.60   \item \textbf
-                    {Empirical Validation:} Extensive experiments on dataset...
+Package natbib Warning: Citation `black_2023_training' on page 1 undefined on i
+nput line 63.
 
 
-! LaTeX Error: Command \item invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.61   \item
-             \textbf{Task-Specific Optimization:} In scenarios such as text-...
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.61   \item \textbf
-                    {Task-Specific Optimization:} In scenarios such as text-...
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.61   \item \textbf
-                    {Task-Specific Optimization:} In scenarios such as text-...
+Package natbib Warning: Citation `bansal_2022_cold' on page 1 undefined on inpu
+t line 67.
 
 
-Underfull \hbox (badness 4634) in paragraph at lines 59--61
-[]\T1/ptm/b/n/10 (+20) State Ex-trac-tion and Pol-icy Train-ing: \T1/ptm/m/n/10
- (+20) A state ex-trac-tor mod-ule com-putes
+Package natbib Warning: Citation `chung_2022_diffusion' on page 1 undefined on 
+input line 67.
 
-Underfull \hbox (badness 3019) in paragraph at lines 59--61
-\T1/ptm/m/n/10 (+20) met-rics such as la-tent vec-tor qual-ity, cur-rent noise 
-scale, and pre-dic-tion re-li-
 
-Underfull \hbox (badness 1253) in paragraph at lines 59--61
-\T1/ptm/m/n/10 (+20) a-bil-ity; these fea-tures are then used by an RL pol-icy 
-net-work trained via PPO
+Package natbib Warning: Citation `black_2023_training' on page 1 undefined on i
+nput line 67.
 
-Overfull \hbox (16.03369pt too wide) in paragraph at lines 59--61
-\T1/ptm/m/n/10 (-20) [chatterji$[]\OT1/cmr/m/n/10 021[]\OML/cmm/m/it/10 he\OT1/
-cmr/m/n/10 ]\OML/cmm/m/it/10 :[]ExtensiveexperimentsondatasetslikeCIFAR \OMS/cm
-sy/m/n/10 ^^@
 
-Overfull \hbox (205.0155pt too wide) in paragraph at lines 59--61
-\OT1/cmr/m/n/10 10\OML/cmm/m/it/10 andCelebArevealsignificantreductionsiniterat
-ioncount; improvedimagequality; androbustresponsestodynamicperturbations:[][]$ 
+Package natbib Warning: Citation `mesnard_2020_counterfactual' on page 1 undefi
+ned on input line 67.
 
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.61   \item \textbf
-                    {Task-Specific Optimization:} In scenarios such as text-...
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.64 ...rior approaches in cold diffusion [bansal_
-                                                  2022_cold] and post-hoc RL...
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.65 
-     
-
-Underfull \hbox (badness 7576) in paragraph at lines 64--65
-[]\T1/ptm/m/n/10 (+20) Our work builds on prior ap-proaches in cold dif-fu-sion
- [bansal$[]\OT1/cmr/m/n/10 022[]\OML/cmm/m/it/10 old\OT1/cmr/m/n/10 ]\OML/cmm/m
-/it/10 andpost \OMS/cmsy/m/n/10 ^^@
-
-Overfull \hbox (758.63408pt too wide) in paragraph at lines 64--65
-\OML/cmm/m/it/10 hocRLenhancements\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 black[]\OT1
-/cmr/m/n/10 023[]\OML/cmm/m/it/10 raining\OT1/cmr/m/n/10 ]\OML/cmm/m/it/10 ; wh
-iledistinctlyintegratingadaptivecontroldirectlyintothediffusionloop:Theremainde
-rofthepaperisorganizedwithareviewofrelatedliterature; anexpositionofthetheoreti
-calbackground; adetaileddescriptionoftheADPO \OT1/cmr/m/n/10 +
-
-Overfull \hbox (225.55522pt too wide) in paragraph at lines 64--65
-\OML/cmm/m/it/10 methodology; anoutlineofourexperimentalsetup; presentationofre
-sults; andfinallyconclusionswithperspectivesonfutureresearchdirections:$ 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.68 ...erative processes. Cold Diffusion [bansal_
-                                                  2022_cold] demonstrated th...
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.69 
-     
-
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
-\T1/ptm/m/n/10 (+20) Prior re-search has ex-plored nu-mer-ous strate-gies to en
--hance dif-fu-sion mod-els
-
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
-\T1/ptm/m/n/10 (+20) and in-te-grate re-in-force-ment learn-ing into gen-er-a-t
-ive pro-cesses. Cold Dif-fu-sion
-
-Overfull \hbox (1098.41882pt too wide) in paragraph at lines 68--69
-\T1/ptm/m/n/10 (-20) [bansal$[]\OT1/cmr/m/n/10 022[]\OML/cmm/m/it/10 old\OT1/cm
-r/m/n/10 ]\OML/cmm/m/it/10 demonstratedthatthegenerativebehaviorofmodelsisnotst
-ronglytiedtoafixednoiseschedule; yettheseapproachesstillrelyonstaticdenoisingtr
-ajectories:Otherworks; suchasthoseonDiffusionPosteriorSampling\OT1/cmr/m/n/10 [
-\OML/cmm/m/it/10 chung[]\OT1/cmr/m/n/10 022[]\OML/cmm/m/it/10 iffusion\OT1/cmr/
-m/n/10 ]\OML/cmm/m/it/10 ; haveoptimizedthesamplingprocessfornoisyinverseproble
-msbuthaveemployedfixedreward \OMS/cmsy/m/n/10 ^^@
-
-Overfull \hbox (224.44315pt too wide) in paragraph at lines 68--69
-\OML/cmm/m/it/10 adjustedlikelihoodsratherthandynamicdecision \OMS/cmsy/m/n/10 
-^^@ \OML/cmm/m/it/10 making:Morerecentstudieshavebeguntoframethedenoisingproces
-sasasequentialdecision \OMS/cmsy/m/n/10 ^^@
-
-Overfull \hbox (94.33617pt too wide) in paragraph at lines 68--69
-\OML/cmm/m/it/10 makingtask; allowingforreinforcementlearninginterventions\OT1/
-cmr/m/n/10 ; \OML/cmm/m/it/10 however; thesemethodstendtoapplyRLasapost \OMS/cm
-sy/m/n/10 ^^@
-
-Overfull \hbox (922.02943pt too wide) in paragraph at lines 68--69
-\OML/cmm/m/it/10 hocadjustmentratherthanembeddingitwithinthesamplingloop\OT1/cm
-r/m/n/10 [\OML/cmm/m/it/10 black[]\OT1/cmr/m/n/10 023[]\OML/cmm/m/it/10 raining
-\OT1/cmr/m/n/10 ]\OML/cmm/m/it/10 :Furthermore; researchoncounterfactualcredita
-ssignmentinRL\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 mesnard[]\OT1/cmr/m/n/10 020[]\O
-ML/cmm/m/it/10 ounterfactual\OT1/cmr/m/n/10 ]\OML/cmm/m/it/10 hasprovidedinsigh
-tsintohandlingdelayedrewards; thoughithasnotbeenexplicitlycombinedwithdiffusion
-processes:ADPO \OT1/cmr/m/n/10 +
-
-Overfull \hbox (16.52051pt too wide) in paragraph at lines 68--69
-\OML/cmm/m/it/10 distinguishesitselfbytightlycouplinganRLcontrollerwiththediffu
-sionprocess; enablingreal \OMS/cmsy/m/n/10 ^^@
-
-Overfull \hbox (117.58302pt too wide) in paragraph at lines 68--69
-\OML/cmm/m/it/10 timemodulationandofferingaunifiedframeworkthatreducescomputati
-onaliterationswhilepreservingoutputquality:$ 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-
 dist/fonts/enc/dvips/base/8r.enc}]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.96 ...uring a separate fine-tuning stage [black_
-                                                  2023_training], ADPO+ embe...
+Underfull \vbox (badness 10000) has occurred while \output is active [2]
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.97 
-     
+Package natbib Warning: Citation `black_2023_training' on page 3 undefined on i
+nput line 95.
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
-[]\T1/ptm/m/n/10 (+20) Unlike ap-proaches that ap-ply RL only dur-ing a sep-a-r
-ate fine-tuning stage
+[3] [4 <./images/experiment1_performance_comparison.pdf> <./images/experiment2_
+action_distributions.pdf> <./images/experiment2_quality_and_actions.pdf>]
 
-Overfull \hbox (850.92047pt too wide) in paragraph at lines 96--97
-\T1/ptm/m/n/10 (-20) [black$[]\OT1/cmr/m/n/10 023[]\OML/cmm/m/it/10 raining\OT1
-/cmr/m/n/10 ]\OML/cmm/m/it/10 ; ADPO \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 embedst
-heRLcontrollerintothediffusionprocess:Thistightintegrationfacilitatesimmediatec
-orrectiveactionsanddynamicadaptationthroughoutthesamplingtrajectory; leadingtom
-arkedimprovementsinbothcomputationalefficiencyandgenerativequality:$ 
-[2]
-Underfull \vbox (badness 10000) has occurred while \output is active [3]
-[4 <./images/experiment1_performance_comparison.pdf> <./images/experiment2_acti
-on_distributions.pdf> <./images/experiment2_quality_and_actions.pdf>]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.149 ...able generative modeling systems [bansal_
-                                                  2022_cold, black_2023_trai...
+Package natbib Warning: Citation `bansal_2022_cold' on page 5 undefined on inpu
+t line 148.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.150 
-      
+
+Package natbib Warning: Citation `black_2023_training' on page 5 undefined on i
+nput line 148.
+
 
 Package natbib Warning: Citation `airas2025' on page 5 undefined on input line 
-151.
+150.
 
 No file paper.bbl.
 
@@ -497,12 +336,22 @@ e1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on paper.pdf (5 pages, 184956 bytes).
+Output written on paper.pdf (5 pages, 174549 bytes).
 Transcript written on paper.log.
 This is BibTeX, Version 0.99d (TeX Live 2023/Debian)
 The top-level auxiliary file: paper.aux
 The style file: iclr2024_conference.bst
 Database file #1: references.bib
+Repeated entry---line 62 of file references.bib
+ : @article{black_2023_training
+ :                             ,
+I'm skipping whatever remains of this entry
+Warning--empty journal in bansal_2022_cold
+Warning--empty journal in black_2023_training
+Warning--empty journal in chatterji_2021_the
+Warning--empty journal in chung_2022_diffusion
+Warning--empty journal in mesnard_2020_counterfactual
+(There was 1 error message)
 This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex)
  restricted \write18 enabled.
 entering extended mode
@@ -772,221 +621,61 @@ s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg)
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd)
-! Missing $ inserted.
-<inserted text> 
-                $
-l.59 ...policy network trained via PPO [chatterji_
-                                                  2021_the].
 
-! LaTeX Error: Command \item invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.60   \item
-             \textbf{Empirical Validation:} Extensive experiments on dataset...
+Package natbib Warning: Citation `chatterji_2021_the' on page 1 undefined on in
+put line 58.
 
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.60   \item \textbf
-                    {Empirical Validation:} Extensive experiments on dataset...
+Package natbib Warning: Citation `bansal_2022_cold' on page 1 undefined on inpu
+t line 63.
 
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.60   \item \textbf
-                    {Empirical Validation:} Extensive experiments on dataset...
+Package natbib Warning: Citation `black_2023_training' on page 1 undefined on i
+nput line 63.
 
 
-! LaTeX Error: Command \item invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.61   \item
-             \textbf{Task-Specific Optimization:} In scenarios such as text-...
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.61   \item \textbf
-                    {Task-Specific Optimization:} In scenarios such as text-...
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.61   \item \textbf
-                    {Task-Specific Optimization:} In scenarios such as text-...
+Package natbib Warning: Citation `bansal_2022_cold' on page 1 undefined on inpu
+t line 67.
 
 
-Underfull \hbox (badness 4634) in paragraph at lines 59--61
-[]\T1/ptm/b/n/10 (+20) State Ex-trac-tion and Pol-icy Train-ing: \T1/ptm/m/n/10
- (+20) A state ex-trac-tor mod-ule com-putes
+Package natbib Warning: Citation `chung_2022_diffusion' on page 1 undefined on 
+input line 67.
 
-Underfull \hbox (badness 3019) in paragraph at lines 59--61
-\T1/ptm/m/n/10 (+20) met-rics such as la-tent vec-tor qual-ity, cur-rent noise 
-scale, and pre-dic-tion re-li-
 
-Underfull \hbox (badness 1253) in paragraph at lines 59--61
-\T1/ptm/m/n/10 (+20) a-bil-ity; these fea-tures are then used by an RL pol-icy 
-net-work trained via PPO
+Package natbib Warning: Citation `black_2023_training' on page 1 undefined on i
+nput line 67.
 
-Overfull \hbox (16.03369pt too wide) in paragraph at lines 59--61
-\T1/ptm/m/n/10 (-20) [chatterji$[]\OT1/cmr/m/n/10 021[]\OML/cmm/m/it/10 he\OT1/
-cmr/m/n/10 ]\OML/cmm/m/it/10 :[]ExtensiveexperimentsondatasetslikeCIFAR \OMS/cm
-sy/m/n/10 ^^@
 
-Overfull \hbox (205.0155pt too wide) in paragraph at lines 59--61
-\OT1/cmr/m/n/10 10\OML/cmm/m/it/10 andCelebArevealsignificantreductionsiniterat
-ioncount; improvedimagequality; androbustresponsestodynamicperturbations:[][]$ 
+Package natbib Warning: Citation `mesnard_2020_counterfactual' on page 1 undefi
+ned on input line 67.
 
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.61   \item \textbf
-                    {Task-Specific Optimization:} In scenarios such as text-...
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.64 ...rior approaches in cold diffusion [bansal_
-                                                  2022_cold] and post-hoc RL...
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.65 
-     
-
-Underfull \hbox (badness 7576) in paragraph at lines 64--65
-[]\T1/ptm/m/n/10 (+20) Our work builds on prior ap-proaches in cold dif-fu-sion
- [bansal$[]\OT1/cmr/m/n/10 022[]\OML/cmm/m/it/10 old\OT1/cmr/m/n/10 ]\OML/cmm/m
-/it/10 andpost \OMS/cmsy/m/n/10 ^^@
-
-Overfull \hbox (758.63408pt too wide) in paragraph at lines 64--65
-\OML/cmm/m/it/10 hocRLenhancements\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 black[]\OT1
-/cmr/m/n/10 023[]\OML/cmm/m/it/10 raining\OT1/cmr/m/n/10 ]\OML/cmm/m/it/10 ; wh
-iledistinctlyintegratingadaptivecontroldirectlyintothediffusionloop:Theremainde
-rofthepaperisorganizedwithareviewofrelatedliterature; anexpositionofthetheoreti
-calbackground; adetaileddescriptionoftheADPO \OT1/cmr/m/n/10 +
-
-Overfull \hbox (225.55522pt too wide) in paragraph at lines 64--65
-\OML/cmm/m/it/10 methodology; anoutlineofourexperimentalsetup; presentationofre
-sults; andfinallyconclusionswithperspectivesonfutureresearchdirections:$ 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.68 ...erative processes. Cold Diffusion [bansal_
-                                                  2022_cold] demonstrated th...
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.69 
-     
-
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
-\T1/ptm/m/n/10 (+20) Prior re-search has ex-plored nu-mer-ous strate-gies to en
--hance dif-fu-sion mod-els
-
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
-\T1/ptm/m/n/10 (+20) and in-te-grate re-in-force-ment learn-ing into gen-er-a-t
-ive pro-cesses. Cold Dif-fu-sion
-
-Overfull \hbox (1098.41882pt too wide) in paragraph at lines 68--69
-\T1/ptm/m/n/10 (-20) [bansal$[]\OT1/cmr/m/n/10 022[]\OML/cmm/m/it/10 old\OT1/cm
-r/m/n/10 ]\OML/cmm/m/it/10 demonstratedthatthegenerativebehaviorofmodelsisnotst
-ronglytiedtoafixednoiseschedule; yettheseapproachesstillrelyonstaticdenoisingtr
-ajectories:Otherworks; suchasthoseonDiffusionPosteriorSampling\OT1/cmr/m/n/10 [
-\OML/cmm/m/it/10 chung[]\OT1/cmr/m/n/10 022[]\OML/cmm/m/it/10 iffusion\OT1/cmr/
-m/n/10 ]\OML/cmm/m/it/10 ; haveoptimizedthesamplingprocessfornoisyinverseproble
-msbuthaveemployedfixedreward \OMS/cmsy/m/n/10 ^^@
-
-Overfull \hbox (224.44315pt too wide) in paragraph at lines 68--69
-\OML/cmm/m/it/10 adjustedlikelihoodsratherthandynamicdecision \OMS/cmsy/m/n/10 
-^^@ \OML/cmm/m/it/10 making:Morerecentstudieshavebeguntoframethedenoisingproces
-sasasequentialdecision \OMS/cmsy/m/n/10 ^^@
-
-Overfull \hbox (94.33617pt too wide) in paragraph at lines 68--69
-\OML/cmm/m/it/10 makingtask; allowingforreinforcementlearninginterventions\OT1/
-cmr/m/n/10 ; \OML/cmm/m/it/10 however; thesemethodstendtoapplyRLasapost \OMS/cm
-sy/m/n/10 ^^@
-
-Overfull \hbox (922.02943pt too wide) in paragraph at lines 68--69
-\OML/cmm/m/it/10 hocadjustmentratherthanembeddingitwithinthesamplingloop\OT1/cm
-r/m/n/10 [\OML/cmm/m/it/10 black[]\OT1/cmr/m/n/10 023[]\OML/cmm/m/it/10 raining
-\OT1/cmr/m/n/10 ]\OML/cmm/m/it/10 :Furthermore; researchoncounterfactualcredita
-ssignmentinRL\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 mesnard[]\OT1/cmr/m/n/10 020[]\O
-ML/cmm/m/it/10 ounterfactual\OT1/cmr/m/n/10 ]\OML/cmm/m/it/10 hasprovidedinsigh
-tsintohandlingdelayedrewards; thoughithasnotbeenexplicitlycombinedwithdiffusion
-processes:ADPO \OT1/cmr/m/n/10 +
-
-Overfull \hbox (16.52051pt too wide) in paragraph at lines 68--69
-\OML/cmm/m/it/10 distinguishesitselfbytightlycouplinganRLcontrollerwiththediffu
-sionprocess; enablingreal \OMS/cmsy/m/n/10 ^^@
-
-Overfull \hbox (117.58302pt too wide) in paragraph at lines 68--69
-\OML/cmm/m/it/10 timemodulationandofferingaunifiedframeworkthatreducescomputati
-onaliterationswhilepreservingoutputquality:$ 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-
 dist/fonts/enc/dvips/base/8r.enc}]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.96 ...uring a separate fine-tuning stage [black_
-                                                  2023_training], ADPO+ embe...
+Underfull \vbox (badness 10000) has occurred while \output is active [2]
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.97 
-     
+Package natbib Warning: Citation `black_2023_training' on page 3 undefined on i
+nput line 95.
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
-[]\T1/ptm/m/n/10 (+20) Unlike ap-proaches that ap-ply RL only dur-ing a sep-a-r
-ate fine-tuning stage
+[3] [4 <./images/experiment1_performance_comparison.pdf> <./images/experiment2_
+action_distributions.pdf> <./images/experiment2_quality_and_actions.pdf>]
 
-Overfull \hbox (850.92047pt too wide) in paragraph at lines 96--97
-\T1/ptm/m/n/10 (-20) [black$[]\OT1/cmr/m/n/10 023[]\OML/cmm/m/it/10 raining\OT1
-/cmr/m/n/10 ]\OML/cmm/m/it/10 ; ADPO \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 embedst
-heRLcontrollerintothediffusionprocess:Thistightintegrationfacilitatesimmediatec
-orrectiveactionsanddynamicadaptationthroughoutthesamplingtrajectory; leadingtom
-arkedimprovementsinbothcomputationalefficiencyandgenerativequality:$ 
-[2]
-Underfull \vbox (badness 10000) has occurred while \output is active [3]
-[4 <./images/experiment1_performance_comparison.pdf> <./images/experiment2_acti
-on_distributions.pdf> <./images/experiment2_quality_and_actions.pdf>]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.149 ...able generative modeling systems [bansal_
-                                                  2022_cold, black_2023_trai...
+Package natbib Warning: Citation `bansal_2022_cold' on page 5 undefined on inpu
+t line 148.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.150 
-      
+
+Package natbib Warning: Citation `black_2023_training' on page 5 undefined on i
+nput line 148.
+
 
 Package natbib Warning: Citation `airas2025' on page 5 undefined on input line 
-151.
+150.
 
-(./paper.bbl (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd))
+(./paper.bbl [5 <./images/experiment3_conditional_generation.pdf>]
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd))
 
 Package natbib Warning: There were undefined citations.
 
-[5 <./images/experiment3_conditional_generation.pdf>] (./paper.aux
+[6] (./paper.aux
 
 Package natbib Warning: Citation(s) may have changed.
 (natbib)                Rerun to get citations correct.
@@ -1000,7 +689,7 @@ ic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on paper.pdf (5 pages, 195914 bytes).
+Output written on paper.pdf (6 pages, 187111 bytes).
 Transcript written on paper.log.
 This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex)
  restricted \write18 enabled.
@@ -1270,215 +959,14 @@ s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg)
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg)
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd)
-! Missing $ inserted.
-<inserted text> 
-                $
-l.59 ...policy network trained via PPO [chatterji_
-                                                  2021_the].
-
-! LaTeX Error: Command \item invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.60   \item
-             \textbf{Empirical Validation:} Extensive experiments on dataset...
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.60   \item \textbf
-                    {Empirical Validation:} Extensive experiments on dataset...
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.60   \item \textbf
-                    {Empirical Validation:} Extensive experiments on dataset...
-
-
-! LaTeX Error: Command \item invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.61   \item
-             \textbf{Task-Specific Optimization:} In scenarios such as text-...
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.61   \item \textbf
-                    {Task-Specific Optimization:} In scenarios such as text-...
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.61   \item \textbf
-                    {Task-Specific Optimization:} In scenarios such as text-...
-
-
-Underfull \hbox (badness 4634) in paragraph at lines 59--61
-[]\T1/ptm/b/n/10 (+20) State Ex-trac-tion and Pol-icy Train-ing: \T1/ptm/m/n/10
- (+20) A state ex-trac-tor mod-ule com-putes
-
-Underfull \hbox (badness 3019) in paragraph at lines 59--61
-\T1/ptm/m/n/10 (+20) met-rics such as la-tent vec-tor qual-ity, cur-rent noise 
-scale, and pre-dic-tion re-li-
-
-Underfull \hbox (badness 1253) in paragraph at lines 59--61
-\T1/ptm/m/n/10 (+20) a-bil-ity; these fea-tures are then used by an RL pol-icy 
-net-work trained via PPO
-
-Overfull \hbox (16.03369pt too wide) in paragraph at lines 59--61
-\T1/ptm/m/n/10 (-20) [chatterji$[]\OT1/cmr/m/n/10 021[]\OML/cmm/m/it/10 he\OT1/
-cmr/m/n/10 ]\OML/cmm/m/it/10 :[]ExtensiveexperimentsondatasetslikeCIFAR \OMS/cm
-sy/m/n/10 ^^@
-
-Overfull \hbox (205.0155pt too wide) in paragraph at lines 59--61
-\OT1/cmr/m/n/10 10\OML/cmm/m/it/10 andCelebArevealsignificantreductionsiniterat
-ioncount; improvedimagequality; androbustresponsestodynamicperturbations:[][]$ 
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.61   \item \textbf
-                    {Task-Specific Optimization:} In scenarios such as text-...
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.64 ...rior approaches in cold diffusion [bansal_
-                                                  2022_cold] and post-hoc RL...
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.65 
-     
-
-Underfull \hbox (badness 7576) in paragraph at lines 64--65
-[]\T1/ptm/m/n/10 (+20) Our work builds on prior ap-proaches in cold dif-fu-sion
- [bansal$[]\OT1/cmr/m/n/10 022[]\OML/cmm/m/it/10 old\OT1/cmr/m/n/10 ]\OML/cmm/m
-/it/10 andpost \OMS/cmsy/m/n/10 ^^@
-
-Overfull \hbox (758.63408pt too wide) in paragraph at lines 64--65
-\OML/cmm/m/it/10 hocRLenhancements\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 black[]\OT1
-/cmr/m/n/10 023[]\OML/cmm/m/it/10 raining\OT1/cmr/m/n/10 ]\OML/cmm/m/it/10 ; wh
-iledistinctlyintegratingadaptivecontroldirectlyintothediffusionloop:Theremainde
-rofthepaperisorganizedwithareviewofrelatedliterature; anexpositionofthetheoreti
-calbackground; adetaileddescriptionoftheADPO \OT1/cmr/m/n/10 +
-
-Overfull \hbox (225.55522pt too wide) in paragraph at lines 64--65
-\OML/cmm/m/it/10 methodology; anoutlineofourexperimentalsetup; presentationofre
-sults; andfinallyconclusionswithperspectivesonfutureresearchdirections:$ 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.68 ...erative processes. Cold Diffusion [bansal_
-                                                  2022_cold] demonstrated th...
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.69 
-     
-
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
-\T1/ptm/m/n/10 (+20) Prior re-search has ex-plored nu-mer-ous strate-gies to en
--hance dif-fu-sion mod-els
-
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
-\T1/ptm/m/n/10 (+20) and in-te-grate re-in-force-ment learn-ing into gen-er-a-t
-ive pro-cesses. Cold Dif-fu-sion
-
-Overfull \hbox (1098.41882pt too wide) in paragraph at lines 68--69
-\T1/ptm/m/n/10 (-20) [bansal$[]\OT1/cmr/m/n/10 022[]\OML/cmm/m/it/10 old\OT1/cm
-r/m/n/10 ]\OML/cmm/m/it/10 demonstratedthatthegenerativebehaviorofmodelsisnotst
-ronglytiedtoafixednoiseschedule; yettheseapproachesstillrelyonstaticdenoisingtr
-ajectories:Otherworks; suchasthoseonDiffusionPosteriorSampling\OT1/cmr/m/n/10 [
-\OML/cmm/m/it/10 chung[]\OT1/cmr/m/n/10 022[]\OML/cmm/m/it/10 iffusion\OT1/cmr/
-m/n/10 ]\OML/cmm/m/it/10 ; haveoptimizedthesamplingprocessfornoisyinverseproble
-msbuthaveemployedfixedreward \OMS/cmsy/m/n/10 ^^@
-
-Overfull \hbox (224.44315pt too wide) in paragraph at lines 68--69
-\OML/cmm/m/it/10 adjustedlikelihoodsratherthandynamicdecision \OMS/cmsy/m/n/10 
-^^@ \OML/cmm/m/it/10 making:Morerecentstudieshavebeguntoframethedenoisingproces
-sasasequentialdecision \OMS/cmsy/m/n/10 ^^@
-
-Overfull \hbox (94.33617pt too wide) in paragraph at lines 68--69
-\OML/cmm/m/it/10 makingtask; allowingforreinforcementlearninginterventions\OT1/
-cmr/m/n/10 ; \OML/cmm/m/it/10 however; thesemethodstendtoapplyRLasapost \OMS/cm
-sy/m/n/10 ^^@
-
-Overfull \hbox (922.02943pt too wide) in paragraph at lines 68--69
-\OML/cmm/m/it/10 hocadjustmentratherthanembeddingitwithinthesamplingloop\OT1/cm
-r/m/n/10 [\OML/cmm/m/it/10 black[]\OT1/cmr/m/n/10 023[]\OML/cmm/m/it/10 raining
-\OT1/cmr/m/n/10 ]\OML/cmm/m/it/10 :Furthermore; researchoncounterfactualcredita
-ssignmentinRL\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 mesnard[]\OT1/cmr/m/n/10 020[]\O
-ML/cmm/m/it/10 ounterfactual\OT1/cmr/m/n/10 ]\OML/cmm/m/it/10 hasprovidedinsigh
-tsintohandlingdelayedrewards; thoughithasnotbeenexplicitlycombinedwithdiffusion
-processes:ADPO \OT1/cmr/m/n/10 +
-
-Overfull \hbox (16.52051pt too wide) in paragraph at lines 68--69
-\OML/cmm/m/it/10 distinguishesitselfbytightlycouplinganRLcontrollerwiththediffu
-sionprocess; enablingreal \OMS/cmsy/m/n/10 ^^@
-
-Overfull \hbox (117.58302pt too wide) in paragraph at lines 68--69
-\OML/cmm/m/it/10 timemodulationandofferingaunifiedframeworkthatreducescomputati
-onaliterationswhilepreservingoutputquality:$ 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-
-dist/fonts/enc/dvips/base/8r.enc}]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.96 ...uring a separate fine-tuning stage [black_
-                                                  2023_training], ADPO+ embe...
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.97 
-     
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
-[]\T1/ptm/m/n/10 (+20) Unlike ap-proaches that ap-ply RL only dur-ing a sep-a-r
-ate fine-tuning stage
-
-Overfull \hbox (850.92047pt too wide) in paragraph at lines 96--97
-\T1/ptm/m/n/10 (-20) [black$[]\OT1/cmr/m/n/10 023[]\OML/cmm/m/it/10 raining\OT1
-/cmr/m/n/10 ]\OML/cmm/m/it/10 ; ADPO \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 embedst
-heRLcontrollerintothediffusionprocess:Thistightintegrationfacilitatesimmediatec
-orrectiveactionsanddynamicadaptationthroughoutthesamplingtrajectory; leadingtom
-arkedimprovementsinbothcomputationalefficiencyandgenerativequality:$ 
-[2]
-Underfull \vbox (badness 10000) has occurred while \output is active [3]
-[4 <./images/experiment1_performance_comparison.pdf> <./images/experiment2_acti
-on_distributions.pdf> <./images/experiment2_quality_and_actions.pdf>]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.149 ...able generative modeling systems [bansal_
-                                                  2022_cold, black_2023_trai...
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.150 
-      
-(./paper.bbl (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd))
-[5 <./images/experiment3_conditional_generation.pdf>] (./paper.aux) )
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd) [1{/var/lib/texmf/fo
+nts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips
+/base/8r.enc}]
+Underfull \vbox (badness 10000) has occurred while \output is active [2]
+[3] [4 <./images/experiment1_performance_comparison.pdf> <./images/experiment2_
+action_distributions.pdf> <./images/experiment2_quality_and_actions.pdf>]
+(./paper.bbl [5 <./images/experiment3_conditional_generation.pdf>]
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd)) [6] (./paper.aux) )
 (see the transcript file for additional information)</usr/share/texlive/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/typ
@@ -1487,5 +975,5 @@ ic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on paper.pdf (5 pages, 195216 bytes).
+Output written on paper.pdf (6 pages, 187379 bytes).
 Transcript written on paper.log.
