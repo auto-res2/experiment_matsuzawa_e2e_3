@@ -5,3 +5,434 @@
   publisher = {GitHub},
   url       = {https://github.com/airas-org/airas}
 }
+
+% ===========================================
+% REQUIRED CITATIONS
+% These papers must be cited in the manuscript
+% ===========================================
+
+@article{author_year_structural,
+ title = {Structural Credit Assignment in Neural Networks using Reinforcement Learning}
+}
+
+@article{bansal_2022_cold,
+ abstract = {Standard diffusion models involve an image transform -- adding Gaussian noise
+-- and an image restoration operator that inverts this degradation. We observe
+that the generative behavior of diffusion models is not strongly dependent on
+the choice of image degradation, and in fact an entire family of generative
+models can be constructed by varying this choice. Even when using completely
+deterministic degradations (e.g., blur, masking, and more), the training and
+test-time update rules that underlie diffusion models can be easily generalized
+to create generative models. The success of these fully deterministic models
+calls into question the community's understanding of diffusion models, which
+relies on noise in either gradient Langevin dynamics or variational inference,
+and paves the way for generalized diffusion models that invert arbitrary
+processes. Our code is available at
+https://github.com/arpitbansal297/Cold-Diffusion-Models},
+ arxiv_url = {https://arxiv.org/pdf/2208.09392v1.pdf},
+ author = {Arpit Bansal and Eitan Borgnia and Hong-Min Chu and Jie S. Li and Hamid Kazemi and Furong Huang and Micah Goldblum and Jonas Geiping and Tom Goldstein},
+ title = {Cold Diffusion: Inverting Arbitrary Image Transforms Without Noise},
+ year = {2022}
+}
+
+@article{black_2023_training,
+ abstract = {Diffusion models are a class of flexible generative models trained with an
+approximation to the log-likelihood objective. However, most use cases of
+diffusion models are not concerned with likelihoods, but instead with
+downstream objectives such as human-perceived image quality or drug
+effectiveness. In this paper, we investigate reinforcement learning methods for
+directly optimizing diffusion models for such objectives. We describe how
+posing denoising as a multi-step decision-making problem enables a class of
+policy gradient algorithms, which we refer to as denoising diffusion policy
+optimization (DDPO), that are more effective than alternative reward-weighted
+likelihood approaches. Empirically, DDPO is able to adapt text-to-image
+diffusion models to objectives that are difficult to express via prompting,
+such as image compressibility, and those derived from human feedback, such as
+aesthetic quality. Finally, we show that DDPO can improve prompt-image
+alignment using feedback from a vision-language model without the need for
+additional data collection or human annotation. The project's website can be
+found at http://rl-diffusion.github.io .},
+ arxiv_url = {https://arxiv.org/pdf/2305.13301v4.pdf},
+ author = {Kevin Black and Michael Janner and Yilun Du and Ilya Kostrikov and Sergey Levine},
+ github_url = {https://github.com/arpitbansal297/Universal-Guided-Diffusion},
+ title = {Training Diffusion Models with Reinforcement Learning},
+ year = {2023}
+}
+
+@article{black_2023_training,
+ abstract = {Diffusion models are a class of flexible generative models trained with an
+approximation to the log-likelihood objective. However, most use cases of
+diffusion models are not concerned with likelihoods, but instead with
+downstream objectives such as human-perceived image quality or drug
+effectiveness. In this paper, we investigate reinforcement learning methods for
+directly optimizing diffusion models for such objectives. We describe how
+posing denoising as a multi-step decision-making problem enables a class of
+policy gradient algorithms, which we refer to as denoising diffusion policy
+optimization (DDPO), that are more effective than alternative reward-weighted
+likelihood approaches. Empirically, DDPO is able to adapt text-to-image
+diffusion models to objectives that are difficult to express via prompting,
+such as image compressibility, and those derived from human feedback, such as
+aesthetic quality. Finally, we show that DDPO can improve prompt-image
+alignment using feedback from a vision-language model without the need for
+additional data collection or human annotation. The project's website can be
+found at http://rl-diffusion.github.io .},
+ arxiv_url = {https://arxiv.org/pdf/2305.13301v4.pdf},
+ author = {Kevin Black and Michael Janner and Yilun Du and Ilya Kostrikov and Sergey Levine},
+ github_url = {https://github.com/arpitbansal297/Universal-Guided-Diffusion},
+ title = {Training Diffusion Models with Reinforcement Learning},
+ year = {2023}
+}
+
+@article{chatterji_2021_the,
+ abstract = {We study a theory of reinforcement learning (RL) in which the learner
+receives binary feedback only once at the end of an episode. While this is an
+extreme test case for theory, it is also arguably more representative of
+real-world applications than the traditional requirement in RL practice that
+the learner receive feedback at every time step. Indeed, in many real-world
+applications of reinforcement learning, such as self-driving cars and robotics,
+it is easier to evaluate whether a learner's complete trajectory was either
+"good" or "bad," but harder to provide a reward signal at each step. To show
+that learning is possible in this more challenging setting, we study the case
+where trajectory labels are generated by an unknown parametric model, and
+provide a statistically and computationally efficient algorithm that achieves
+sublinear regret.},
+ arxiv_url = {https://arxiv.org/pdf/2105.14363v3.pdf},
+ author = {Niladri S. Chatterji and Aldo Pacchiano and Peter L. Bartlett and Michael I. Jordan},
+ title = {On the Theory of Reinforcement Learning with Once-per-Episode Feedback},
+ year = {2021}
+}
+
+@article{chung_2022_diffusion,
+ abstract = {Diffusion models have been recently studied as powerful generative inverse
+problem solvers, owing to their high quality reconstructions and the ease of
+combining existing iterative solvers. However, most works focus on solving
+simple linear inverse problems in noiseless settings, which significantly
+under-represents the complexity of real-world problems. In this work, we extend
+diffusion solvers to efficiently handle general noisy (non)linear inverse
+problems via approximation of the posterior sampling. Interestingly, the
+resulting posterior sampling scheme is a blended version of diffusion sampling
+with the manifold constrained gradient without a strict measurement consistency
+projection step, yielding a more desirable generative path in noisy settings
+compared to the previous studies. Our method demonstrates that diffusion models
+can incorporate various measurement noise statistics such as Gaussian and
+Poisson, and also efficiently handle noisy nonlinear inverse problems such as
+Fourier phase retrieval and non-uniform deblurring. Code available at
+https://github.com/DPS2022/diffusion-posterior-sampling},
+ arxiv_url = {https://arxiv.org/pdf/2209.14687v4.pdf},
+ author = {Hyungjin Chung and Jeongsol Kim and Michael T. Mccann and Marc L. Klasky and Jong Chul Ye},
+ github_url = {https://github.com/openai/guided-diffusion},
+ title = {Diffusion Posterior Sampling for General Noisy Inverse Problems},
+ year = {2022}
+}
+
+@article{graikos_2022_diffusion,
+ abstract = {We consider the problem of inferring high-dimensional data $\mathbf{x}$ in a
+model that consists of a prior $p(\mathbf{x})$ and an auxiliary differentiable
+constraint $c(\mathbf{x},\mathbf{y})$ on $x$ given some additional information
+$\mathbf{y}$. In this paper, the prior is an independently trained denoising
+diffusion generative model. The auxiliary constraint is expected to have a
+differentiable form, but can come from diverse sources. The possibility of such
+inference turns diffusion models into plug-and-play modules, thereby allowing a
+range of potential applications in adapting models to new domains and tasks,
+such as conditional generation or image segmentation. The structure of
+diffusion models allows us to perform approximate inference by iterating
+differentiation through the fixed denoising network enriched with different
+amounts of noise at each step. Considering many noised versions of $\mathbf{x}$
+in evaluation of its fitness is a novel search mechanism that may lead to new
+algorithms for solving combinatorial optimization problems.},
+ arxiv_url = {https://arxiv.org/pdf/2206.09012v3.pdf},
+ author = {Alexandros Graikos and Nikolay Malkin and Nebojsa Jojic and Dimitris Samaras},
+ github_url = {https://github.com/AlexGraikos/diffusion_priors},
+ title = {Diffusion Models as Plug-and-Play Priors},
+ year = {2022}
+}
+
+@article{hegde_2023_generating,
+ abstract = {Recent progress in Quality Diversity Reinforcement Learning (QD-RL) has
+enabled learning a collection of behaviorally diverse, high performing
+policies. However, these methods typically involve storing thousands of
+policies, which results in high space-complexity and poor scaling to additional
+behaviors. Condensing the archive into a single model while retaining the
+performance and coverage of the original collection of policies has proved
+challenging. In this work, we propose using diffusion models to distill the
+archive into a single generative model over policy parameters. We show that our
+method achieves a compression ratio of 13x while recovering 98% of the original
+rewards and 89% of the original coverage. Further, the conditioning mechanism
+of diffusion models allows for flexibly selecting and sequencing behaviors,
+including using language. Project website:
+https://sites.google.com/view/policydiffusion/home},
+ arxiv_url = {https://arxiv.org/pdf/2305.18738v2.pdf},
+ author = {Shashank Hegde and Sumeet Batra and K. R. Zentner and Gaurav S. Sukhatme},
+ title = {Generating Behaviorally Diverse Policies with Latent Diffusion Models},
+ year = {2023}
+}
+
+@article{huang_2021_variational,
+ abstract = {Discrete-time diffusion-based generative models and score matching methods
+have shown promising results in modeling high-dimensional image data. Recently,
+Song et al. (2021) show that diffusion processes that transform data into noise
+can be reversed via learning the score function, i.e. the gradient of the
+log-density of the perturbed data. They propose to plug the learned score
+function into an inverse formula to define a generative diffusion process.
+Despite the empirical success, a theoretical underpinning of this procedure is
+still lacking. In this work, we approach the (continuous-time) generative
+diffusion directly and derive a variational framework for likelihood
+estimation, which includes continuous-time normalizing flows as a special case,
+and can be seen as an infinitely deep variational autoencoder. Under this
+framework, we show that minimizing the score-matching loss is equivalent to
+maximizing a lower bound of the likelihood of the plug-in reverse SDE proposed
+by Song et al. (2021), bridging the theoretical gap.},
+ arxiv_url = {https://arxiv.org/pdf/2106.02808v2.pdf},
+ author = {Chin-Wei Huang and Jae Hyun Lim and Aaron Courville},
+ github_url = {https://github.com/CW-Huang/sdeflow-light},
+ title = {A Variational Perspective on Diffusion-Based Generative Models and Score Matching},
+ year = {2021}
+}
+
+@article{mesnard_2020_counterfactual,
+ abstract = {Credit assignment in reinforcement learning is the problem of measuring an
+action's influence on future rewards. In particular, this requires separating
+skill from luck, i.e. disentangling the effect of an action on rewards from
+that of external factors and subsequent actions. To achieve this, we adapt the
+notion of counterfactuals from causality theory to a model-free RL setup. The
+key idea is to condition value functions on future events, by learning to
+extract relevant information from a trajectory. We formulate a family of policy
+gradient algorithms that use these future-conditional value functions as
+baselines or critics, and show that they are provably low variance. To avoid
+the potential bias from conditioning on future information, we constrain the
+hindsight information to not contain information about the agent's actions. We
+demonstrate the efficacy and validity of our algorithm on a number of
+illustrative and challenging problems.},
+ arxiv_url = {https://arxiv.org/pdf/2011.09464v2.pdf},
+ author = {Thomas Mesnard and Théophane Weber and Fabio Viola and Shantanu Thakoor and Alaa Saade and Anna Harutyunyan and Will Dabney and Tom Stepleton and Nicolas Heess and Arthur Guez and Éric Moulines and Marcus Hutter and Lars Buesing and Rémi Munos},
+ title = {Counterfactual Credit Assignment in Model-Free Reinforcement Learning},
+ year = {2020}
+}
+
+@article{rozet_2024_learning,
+ abstract = {Diffusion models recently proved to be remarkable priors for Bayesian inverse
+problems. However, training these models typically requires access to large
+amounts of clean data, which could prove difficult in some settings. In this
+work, we present a novel method based on the expectation-maximization algorithm
+for training diffusion models from incomplete and noisy observations only.
+Unlike previous works, our method leads to proper diffusion models, which is
+crucial for downstream tasks. As part of our method, we propose and motivate an
+improved posterior sampling scheme for unconditional diffusion models. We
+present empirical evidence supporting the effectiveness of our method.},
+ arxiv_url = {https://arxiv.org/pdf/2405.13712v4.pdf},
+ author = {François Rozet and Gérôme Andry and François Lanusse and Gilles Louppe},
+ github_url = {https://github.com/francois-rozet/mmps-benchmark},
+ title = {Learning Diffusion Priors from Observations by Expectation Maximization},
+ year = {2024}
+}
+
+@article{song_2020_improved,
+ abstract = {Score-based generative models can produce high quality image samples
+comparable to GANs, without requiring adversarial optimization. However,
+existing training procedures are limited to images of low resolution (typically
+below 32x32), and can be unstable under some settings. We provide a new
+theoretical analysis of learning and sampling from score models in high
+dimensional spaces, explaining existing failure modes and motivating new
+solutions that generalize across datasets. To enhance stability, we also
+propose to maintain an exponential moving average of model weights. With these
+improvements, we can effortlessly scale score-based generative models to images
+with unprecedented resolutions ranging from 64x64 to 256x256. Our score-based
+models can generate high-fidelity samples that rival best-in-class GANs on
+various image datasets, including CelebA, FFHQ, and multiple LSUN categories.},
+ arxiv_url = {https://arxiv.org/pdf/2006.09011v2.pdf},
+ author = {Yang Song and Stefano Ermon},
+ title = {Improved Techniques for Training Score-Based Generative Models},
+ year = {2020}
+}
+
+@article{song_2020_score,
+ abstract = {Creating noise from data is easy; creating data from noise is generative
+modeling. We present a stochastic differential equation (SDE) that smoothly
+transforms a complex data distribution to a known prior distribution by slowly
+injecting noise, and a corresponding reverse-time SDE that transforms the prior
+distribution back into the data distribution by slowly removing the noise.
+Crucially, the reverse-time SDE depends only on the time-dependent gradient
+field (\aka, score) of the perturbed data distribution. By leveraging advances
+in score-based generative modeling, we can accurately estimate these scores
+with neural networks, and use numerical SDE solvers to generate samples. We
+show that this framework encapsulates previous approaches in score-based
+generative modeling and diffusion probabilistic modeling, allowing for new
+sampling procedures and new modeling capabilities. In particular, we introduce
+a predictor-corrector framework to correct errors in the evolution of the
+discretized reverse-time SDE. We also derive an equivalent neural ODE that
+samples from the same distribution as the SDE, but additionally enables exact
+likelihood computation, and improved sampling efficiency. In addition, we
+provide a new way to solve inverse problems with score-based models, as
+demonstrated with experiments on class-conditional generation, image
+inpainting, and colorization. Combined with multiple architectural
+improvements, we achieve record-breaking performance for unconditional image
+generation on CIFAR-10 with an Inception score of 9.89 and FID of 2.20, a
+competitive likelihood of 2.99 bits/dim, and demonstrate high fidelity
+generation of 1024 x 1024 images for the first time from a score-based
+generative model.},
+ arxiv_url = {https://arxiv.org/pdf/2011.13456v2.pdf},
+ author = {Yang Song and Jascha Sohl-Dickstein and Diederik P. Kingma and Abhishek Kumar and Stefano Ermon and Ben Poole},
+ title = {Score-Based Generative Modeling through Stochastic Differential Equations},
+ year = {2020}
+}
+
+@article{uehara_2024_feedback,
+ abstract = {Diffusion models excel at modeling complex data distributions, including
+those of images, proteins, and small molecules. However, in many cases, our
+goal is to model parts of the distribution that maximize certain properties:
+for example, we may want to generate images with high aesthetic quality, or
+molecules with high bioactivity. It is natural to frame this as a reinforcement
+learning (RL) problem, in which the objective is to fine-tune a diffusion model
+to maximize a reward function that corresponds to some property. Even with
+access to online queries of the ground-truth reward function, efficiently
+discovering high-reward samples can be challenging: they might have a low
+probability in the initial distribution, and there might be many infeasible
+samples that do not even have a well-defined reward (e.g., unnatural images or
+physically impossible molecules). In this work, we propose a novel
+reinforcement learning procedure that efficiently explores on the manifold of
+feasible samples. We present a theoretical analysis providing a regret
+guarantee, as well as empirical validation across three domains: images,
+biological sequences, and molecules.},
+ arxiv_url = {https://arxiv.org/pdf/2402.16359v3.pdf},
+ author = {Masatoshi Uehara and Yulai Zhao and Kevin Black and Ehsan Hajiramezanali and Gabriele Scalia and Nathaniel Lee Diamant and Alex M Tseng and Sergey Levine and Tommaso Biancalani},
+ github_url = {https://github.com/zhaoyl18/SEIKO},
+ title = {Feedback Efficient Online Fine-Tuning of Diffusion Models},
+ year = {2024}
+}
+
+@article{uehara_2024_feedback,
+ abstract = {Diffusion models excel at modeling complex data distributions, including
+those of images, proteins, and small molecules. However, in many cases, our
+goal is to model parts of the distribution that maximize certain properties:
+for example, we may want to generate images with high aesthetic quality, or
+molecules with high bioactivity. It is natural to frame this as a reinforcement
+learning (RL) problem, in which the objective is to fine-tune a diffusion model
+to maximize a reward function that corresponds to some property. Even with
+access to online queries of the ground-truth reward function, efficiently
+discovering high-reward samples can be challenging: they might have a low
+probability in the initial distribution, and there might be many infeasible
+samples that do not even have a well-defined reward (e.g., unnatural images or
+physically impossible molecules). In this work, we propose a novel
+reinforcement learning procedure that efficiently explores on the manifold of
+feasible samples. We present a theoretical analysis providing a regret
+guarantee, as well as empirical validation across three domains: images,
+biological sequences, and molecules.},
+ arxiv_url = {https://arxiv.org/pdf/2402.16359v3.pdf},
+ author = {Masatoshi Uehara and Yulai Zhao and Kevin Black and Ehsan Hajiramezanali and Gabriele Scalia and Nathaniel Lee Diamant and Alex M Tseng and Sergey Levine and Tommaso Biancalani},
+ github_url = {https://github.com/kvablack/ddpo-pytorch},
+ title = {Feedback Efficient Online Fine-Tuning of Diffusion Models},
+ year = {2024}
+}
+
+% ===========================================
+% REFERENCE CANDIDATES
+% Additional reference papers for context
+% ===========================================
+
+@article{brock_2018_large,
+ abstract = {Despite recent progress in generative image modeling, successfully generating
+high-resolution, diverse samples from complex datasets such as ImageNet remains
+an elusive goal. To this end, we train Generative Adversarial Networks at the
+largest scale yet attempted, and study the instabilities specific to such
+scale. We find that applying orthogonal regularization to the generator renders
+it amenable to a simple "truncation trick," allowing fine control over the
+trade-off between sample fidelity and variety by reducing the variance of the
+Generator's input. Our modifications lead to models which set the new state of
+the art in class-conditional image synthesis. When trained on ImageNet at
+128x128 resolution, our models (BigGANs) achieve an Inception Score (IS) of
+166.5 and Frechet Inception Distance (FID) of 7.4, improving over the previous
+best IS of 52.52 and FID of 18.6.},
+ arxiv_url = {https://arxiv.org/pdf/1809.11096v2.pdf},
+ author = {Andrew Brock and Jeff Donahue and Karen Simonyan},
+ title = {Large scale GAN training for high ﬁdelity natural image synthesis},
+ year = {2018}
+}
+
+@article{brown_2020_language,
+ abstract = {Recent work has demonstrated substantial gains on many NLP tasks and
+benchmarks by pre-training on a large corpus of text followed by fine-tuning on
+a specific task. While typically task-agnostic in architecture, this method
+still requires task-specific fine-tuning datasets of thousands or tens of
+thousands of examples. By contrast, humans can generally perform a new language
+task from only a few examples or from simple instructions - something which
+current NLP systems still largely struggle to do. Here we show that scaling up
+language models greatly improves task-agnostic, few-shot performance, sometimes
+even reaching competitiveness with prior state-of-the-art fine-tuning
+approaches. Specifically, we train GPT-3, an autoregressive language model with
+175 billion parameters, 10x more than any previous non-sparse language model,
+and test its performance in the few-shot setting. For all tasks, GPT-3 is
+applied without any gradient updates or fine-tuning, with tasks and few-shot
+demonstrations specified purely via text interaction with the model. GPT-3
+achieves strong performance on many NLP datasets, including translation,
+question-answering, and cloze tasks, as well as several tasks that require
+on-the-fly reasoning or domain adaptation, such as unscrambling words, using a
+novel word in a sentence, or performing 3-digit arithmetic. At the same time,
+we also identify some datasets where GPT-3's few-shot learning still struggles,
+as well as some datasets where GPT-3 faces methodological issues related to
+training on large web corpora. Finally, we find that GPT-3 can generate samples
+of news articles which human evaluators have difficulty distinguishing from
+articles written by humans. We discuss broader societal impacts of this finding
+and of GPT-3 in general.},
+ arxiv_url = {https://arxiv.org/pdf/2005.14165v4.pdf},
+ author = {Tom B. Brown and Benjamin Mann and Nick Ryder and Melanie Subbiah and Jared Kaplan and Prafulla Dhariwal and Arvind Neelakantan and Pranav Shyam and Girish Sastry and Amanda Askell and Sandhini Agarwal and Ariel Herbert-Voss and Gretchen Krueger and Tom Henighan and Rewon Child and Aditya Ramesh and Daniel M. Ziegler and Jeffrey Wu and Clemens Winter and Christopher Hesse and Mark Chen and Eric Sigler and Mateusz Litwin and Scott Gray and Benjamin Chess and Jack Clark and Christopher Berner and Sam McCandlish and Alec Radford and Ilya Sutskever and Dario Amodei},
+ title = {Language models are few-shot learners},
+ year = {2020}
+}
+
+@article{che_2016_mode,
+ abstract = {Although Generative Adversarial Networks achieve state-of-the-art results on
+a variety of generative tasks, they are regarded as highly unstable and prone
+to miss modes. We argue that these bad behaviors of GANs are due to the very
+particular functional shape of the trained discriminators in high dimensional
+spaces, which can easily make training stuck or push probability mass in the
+wrong direction, towards that of higher concentration than that of the data
+generating distribution. We introduce several ways of regularizing the
+objective, which can dramatically stabilize the training of GAN models. We also
+show that our regularizers can help the fair distribution of probability mass
+across the modes of the data generating distribution, during the early phases
+of training and thus providing a unified solution to the missing modes problem.},
+ arxiv_url = {https://arxiv.org/pdf/1612.02136v5.pdf},
+ author = {Tong Che and Yanran Li and Athul Paul Jacob and Yoshua Bengio and Wenjie Li},
+ title = {Mode regularized generative adversarial networks},
+ year = {2016}
+}
+
+@article{goodfellow_2014_generative,
+ abstract = {We propose a new framework for estimating generative models via an
+adversarial process, in which we simultaneously train two models: a generative
+model G that captures the data distribution, and a discriminative model D that
+estimates the probability that a sample came from the training data rather than
+G. The training procedure for G is to maximize the probability of D making a
+mistake. This framework corresponds to a minimax two-player game. In the space
+of arbitrary functions G and D, a unique solution exists, with G recovering the
+training data distribution and D equal to 1/2 everywhere. In the case where G
+and D are defined by multilayer perceptrons, the entire system can be trained
+with backpropagation. There is no need for any Markov chains or unrolled
+approximate inference networks during either training or generation of samples.
+Experiments demonstrate the potential of the framework through qualitative and
+quantitative evaluation of the generated samples.},
+ arxiv_url = {https://arxiv.org/pdf/1406.2661v1.pdf},
+ author = {Ian J. Goodfellow and Jean Pouget-Abadie and Mehdi Mirza and Bing Xu and David Warde-Farley and Sherjil Ozair and Aaron Courville and Yoshua Bengio},
+ title = {Generative adversarial nets},
+ year = {2014}
+}
+
+@article{hendrycks_2019_benchmarking,
+ abstract = {In this paper we establish rigorous benchmarks for image classifier
+robustness. Our first benchmark, ImageNet-C, standardizes and expands the
+corruption robustness topic, while showing which classifiers are preferable in
+safety-critical applications. Then we propose a new dataset called ImageNet-P
+which enables researchers to benchmark a classifier's robustness to common
+perturbations. Unlike recent robustness research, this benchmark evaluates
+performance on common corruptions and perturbations not worst-case adversarial
+perturbations. We find that there are negligible changes in relative corruption
+robustness from AlexNet classifiers to ResNet classifiers. Afterward we
+discover ways to enhance corruption and perturbation robustness. We even find
+that a bypassed adversarial defense provides substantial common perturbation
+robustness. Together our benchmarks may aid future work toward networks that
+robustly generalize.},
+ arxiv_url = {https://arxiv.org/pdf/1903.12261v1.pdf},
+ author = {Dan Hendrycks and Thomas Dietterich},
+ title = {Benchmarking neural network robustness to common corruptions and perturbations},
+ year = {2019}
+}
